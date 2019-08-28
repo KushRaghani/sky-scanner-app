@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkyCalendarDayLabel snapshot with no data 1`] = `
+<div
+  className="calendar-days calendar-row"
+>
+  <div
+    className="block block-center"
+  >
+    Sunday
+  </div>
+  <div
+    className="block block-center"
+  >
+    Monday
+  </div>
+  <div
+    className="block block-center"
+  >
+    Tuesday
+  </div>
+  <div
+    className="block block-center"
+  >
+    Wednesday
+  </div>
+  <div
+    className="block block-center"
+  >
+    Thursday
+  </div>
+  <div
+    className="block block-center"
+  >
+    Friday
+  </div>
+  <div
+    className="block block-center"
+  >
+    Saturday
+  </div>
+</div>
+`;

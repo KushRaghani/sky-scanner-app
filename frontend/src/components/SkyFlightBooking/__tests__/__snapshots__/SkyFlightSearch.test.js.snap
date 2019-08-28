@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkyFlightSearch snapshot with dummy data 1`] = `
+<div
+  className=""
+>
+  <div
+    className="flightsOption"
+  >
+    Search Flights
+  </div>
+  <div
+    className="searchSection"
+  >
+    <div
+      className="input-group col-lg-3 selectFlights"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <label
+          className="input-group-text"
+        >
+          From
+        </label>
+      </div>
+      <select
+        className="custom-select"
+        name="source"
+        onChange={[Function]}
+        value="SIN-sky"
+      >
+        <option
+          value=""
+        >
+          Select Airport
+        </option>
+      </select>
+    </div>
+    <div
+      className="input-group col-lg-3 selectFlights"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <label
+          className="input-group-text"
+        >
+          To
+        </label>
+      </div>
+      <select
+        className="custom-select"
+        name="destination"
+        onChange={[Function]}
+        value="KUL-sky"
+      >
+        <option
+          value=""
+        >
+          Select Airport
+        </option>
+      </select>
+    </div>
+    <button
+      className="btn btn-success goBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      Search
+    </button>
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+      type="button"
+    >
+      Clear
+    </button>
+  </div>
+</div>
+`;

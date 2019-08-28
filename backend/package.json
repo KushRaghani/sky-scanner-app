@@ -1,0 +1,33 @@
+{
+  "name": "sky-scanner-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "build": "babel src --out-dir build --copy-files",
+    "run-code": "node build/server.js",
+    "test": "jest --watch"
+  },
+  "jest": {
+    "setupFiles": [
+      "./jest-config/testSetup.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1"
+  }
+}

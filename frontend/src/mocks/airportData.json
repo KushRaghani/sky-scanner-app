@@ -1,0 +1,77 @@
+{
+  "info": [
+    {
+      "airportCode": "KUL-sky",
+      "airportName": "Kuala Lumpur - International Airport - KUL",
+      "isSource": true,
+      "isDestination": true,
+      "destinations": ["SIN-sky", "SFO-sky"]
+    },
+    {
+      "airportCode": "SIN-sky",
+      "airportName": "Singapore - Changi - SIN",
+      "isSource": true,
+      "isDestination": true,
+      "destinations": ["KUL-sky"]
+    },
+    {
+      "airportCode": "SFO-sky",
+      "airportName": "San Francisco - International Airport, SA - SFO",
+      "isSource": false,
+      "isDestination": true,
+      "destinations": []
+    }
+  ],
+  "airports": [
+    {
+      "name": "Kuala Lumpur - International Airport - KUL",
+      "code": "KUL-sky"
+    },
+    {
+      "name": "Singapore - Changi - SIN",
+      "code": "SIN-sky"
+    },
+    {
+      "name": "San Francisco - International Airport, SA - SFO",
+      "code": "SFO-sky"
+    }
+  ],
+  "flights": [
+    {
+      "source": "KUL-sky",
+      "destination": "SIN-sky"
+    },
+    {
+      "source": "KUL-sky",
+      "destination": "SFO-sky"
+    },
+    {
+      "source": "SIN-sky",
+      "destination": "KUL-sky"
+    }
+  ],
+  "source": [
+    {
+      "name": "Kuala Lumpur - International Airport - KUL",
+      "code": "KUL-sky"
+    },
+    {
+      "name": "Singapore - Changi - SIN",
+      "code": "SIN-sky"
+    }
+  ],
+  "destination": [
+    {
+      "name": "Kuala Lumpur - International Airport - KUL",
+      "code": "KUL-sky"
+    },
+    {
+      "name": "Singapore - Changi - SIN",
+      "code": "SIN-sky"
+    },
+    {
+      "name": "San Francisco - International Airport, SA - SFO",
+      "code": "SFO-sky"
+    }
+  ]
+}
