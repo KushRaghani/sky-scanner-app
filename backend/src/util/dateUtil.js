@@ -1,6 +1,6 @@
 const formatDate = date => {
   return `${date.getFullYear()}-${
-    date.getMonth + 1 > 9 ? date.getMonth() + 1 : "0" + (date.getMonth() + 1)
+    date.getMonth() + 1 > 9 ? date.getMonth() + 1 : "0" + (date.getMonth() + 1)
   }`;
 };
 

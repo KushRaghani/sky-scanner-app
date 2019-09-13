@@ -33,7 +33,7 @@ const SkyCalendarDays = ({ currentMonth, selectedDate, data, onDateClick }) => {
       const cloneDay = day;
       days.push(
         <div
-          className={`block cell block-val${
+          className={`block cell block-val ${
             !isSameMonth(day, monthStart)
               ? "disabled"
               : isSameDay(day, selectedDate)
