@@ -1,6 +1,5 @@
 import React from "react";
 import { shallow } from "enzyme";
-import renderer from "react-test-renderer";
 import SkyCalendarDays from "../SkyCalendarDays";
 
 function loadSkyCalendarDays(args) {
@@ -21,11 +20,5 @@ describe("SkyCalendarDays", () => {
     expect(wrapper.find(".main").length).toBe(1);
     expect(wrapper.find(".calendar-row").length).toBe(5);
     expect(wrapper.find(".calendar-date").length).toBe(35);
-  });
-
-  // Snapshot testing
-  test("snapshot with current Date and current month", () => {
-    const tree = renderer.create(loadSkyCalendarDays());
-    expect(tree).toMatchSnapshot();
   });
 });

@@ -21,7 +21,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
       className="block block-center"
     >
       <span>
-        August 2019
+        September 2019
       </span>
     </div>
     <div
@@ -81,47 +81,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
       className="calendar-row"
     >
       <div
-        className="block cell block-valdisabled"
-        onClick={[Function]}
-      >
-        <span
-          className="calendar-date"
-        >
-          28
-        </span>
-      </div>
-      <div
-        className="block cell block-valdisabled"
-        onClick={[Function]}
-      >
-        <span
-          className="calendar-date"
-        >
-          29
-        </span>
-      </div>
-      <div
-        className="block cell block-valdisabled"
-        onClick={[Function]}
-      >
-        <span
-          className="calendar-date"
-        >
-          30
-        </span>
-      </div>
-      <div
-        className="block cell block-valdisabled"
-        onClick={[Function]}
-      >
-        <span
-          className="calendar-date"
-        >
-          31
-        </span>
-      </div>
-      <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -131,7 +91,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -141,7 +101,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -150,12 +110,8 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
           3
         </span>
       </div>
-    </div>
-    <div
-      className="calendar-row"
-    >
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -165,7 +121,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -175,7 +131,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -185,7 +141,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -194,8 +150,12 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
           7
         </span>
       </div>
+    </div>
+    <div
+      className="calendar-row"
+    >
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -205,7 +165,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -215,7 +175,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -224,12 +184,8 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
           10
         </span>
       </div>
-    </div>
-    <div
-      className="calendar-row"
-    >
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -239,7 +195,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -249,7 +205,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -259,7 +215,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val selected"
         onClick={[Function]}
       >
         <span
@@ -268,8 +224,12 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
           14
         </span>
       </div>
+    </div>
+    <div
+      className="calendar-row"
+    >
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -279,7 +239,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -289,7 +249,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -298,12 +258,8 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
           17
         </span>
       </div>
-    </div>
-    <div
-      className="calendar-row"
-    >
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -313,7 +269,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -323,7 +279,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -333,7 +289,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -342,8 +298,12 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
           21
         </span>
       </div>
+    </div>
+    <div
+      className="calendar-row"
+    >
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -353,7 +313,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -363,7 +323,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -372,12 +332,8 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
           24
         </span>
       </div>
-    </div>
-    <div
-      className="calendar-row"
-    >
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -387,7 +343,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -397,7 +353,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -407,7 +363,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -416,8 +372,12 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
           28
         </span>
       </div>
+    </div>
+    <div
+      className="calendar-row"
+    >
       <div
-        className="block cell block-valselected"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -427,7 +387,7 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val "
         onClick={[Function]}
       >
         <span
@@ -437,13 +397,53 @@ exports[`SkyFlightResults snapshot with no data 1`] = `
         </span>
       </div>
       <div
-        className="block cell block-val"
+        className="block cell block-val disabled"
         onClick={[Function]}
       >
         <span
           className="calendar-date"
         >
-          31
+          1
+        </span>
+      </div>
+      <div
+        className="block cell block-val disabled"
+        onClick={[Function]}
+      >
+        <span
+          className="calendar-date"
+        >
+          2
+        </span>
+      </div>
+      <div
+        className="block cell block-val disabled"
+        onClick={[Function]}
+      >
+        <span
+          className="calendar-date"
+        >
+          3
+        </span>
+      </div>
+      <div
+        className="block cell block-val disabled"
+        onClick={[Function]}
+      >
+        <span
+          className="calendar-date"
+        >
+          4
+        </span>
+      </div>
+      <div
+        className="block cell block-val disabled"
+        onClick={[Function]}
+      >
+        <span
+          className="calendar-date"
+        >
+          5
         </span>
       </div>
     </div>

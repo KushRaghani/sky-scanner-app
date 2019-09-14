@@ -21,7 +21,12 @@ describe("SkyCalendarHeader", () => {
     expect(wrapper.find(".block.block-center").length).toBe(1);
     expect(wrapper.find(".block.block-end").length).toBe(1);
     expect(wrapper.find(".block.block-start").text()).toEqual("chevron_left");
-    expect(wrapper.find(".block.block-center").text()).toEqual("August 2019");
+    const date = new Date();
+    const headerText =
+      date.toLocaleString("default", { month: "long" }) +
+      " " +
+      date.getFullYear();
+    expect(wrapper.find(".block.block-center").text()).toEqual(headerText);
     expect(wrapper.find(".block.block-end").text()).toEqual("chevron_right");
   });
 
