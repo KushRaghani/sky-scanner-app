@@ -101,11 +101,12 @@ const SkyFlightBooking = React.memo(() => {
       const airport = airports[selectedAirport];
       if (item.airportCode != selectedAirport) {
         if (!airport.hasFlight(item.airportCode)) {
-          if (destination) {
+          if (destination && (airport.airportName != item.airportName)) {
             toast.error(
               `No Flights between ${airport.airportName} and ${item.airportName}`
             );
           }
+          
           return false;
         } else {
           return true;

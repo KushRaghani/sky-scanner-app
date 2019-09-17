@@ -1,6 +1,5 @@
 import React from "react";
 import { shallow } from "enzyme";
-import renderer from "react-test-renderer";
 import SkyFlightResults from "../SkyFlightResults";
 
 function loadSkyFlightResults(args) {
@@ -13,13 +12,7 @@ function loadSkyFlightResults(args) {
 describe("SkyFlightResults", () => {
   // Enyzme tests
   test("renders SkyFlightResults", () => {
-    const wrapper = loadSkyFlightResults();
-    expect(wrapper.find("SkyCalendar").length).toBe(1);
-  });
-
-  // Snapshot testing
-  test("snapshot with no data", () => {
-    const tree = renderer.create(loadSkyFlightResults());
-    expect(tree).toMatchSnapshot();
+      const wrapper = loadSkyFlightResults();
+      expect(wrapper.find("SkyCalendar").length).toBe(1);
   });
 });

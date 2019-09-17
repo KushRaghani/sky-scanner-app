@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
-  background: url("/src/assets/images/backgroundMain.jpg") no-repeat;
+  background: url("assets/images/backgroundMain.jpg") no-repeat;
   background-position-x: center;
   font-family: "Arial";
 }
