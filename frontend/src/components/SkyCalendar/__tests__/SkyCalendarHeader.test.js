@@ -32,7 +32,7 @@ describe("SkyCalendarHeader", () => {
 
   // Snapshot testing
   test("snapshot with current month", () => {
-    const tree = renderer.create(loadSkyCalendarHeader());
+    const tree = renderer.create(loadSkyCalendarHeader({currentMonth: new Date("09-10-2019")}));
     expect(tree).toMatchSnapshot();
   });
 });
