@@ -60,7 +60,7 @@ export const formatDate = (date, format) => {
       return date.getDate();
     case "YYYY-MM-DD":
       return `${date.getFullYear()}-${
-        date.getMonth + 1 > 9
+        date.getMonth() + 1 > 9
           ? date.getMonth() + 1
           : "0" + (date.getMonth() + 1)
       }-${date.getDate()}`;
