@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.0",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
